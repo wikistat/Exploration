@@ -7,3 +7,6 @@ L'objectif de ces tutoriels, présentés sous forme de calepins ([*jupyter noteb
 
 Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) au format .ipynb à télécharger et ouvrir dans *Jupyter*.
 
+## Exemples et cas d'usage
+
+- [`GRC-carte_Visa`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa). Exemple de Gestion de la Relaiton Client (GRC). Exploraiton multidimensionnelle: ACP, AFCM, segmentation de clientèle: classificaiton non supervisée par CAH et réallocation dynamique; représentation, interprétation des classes. 
