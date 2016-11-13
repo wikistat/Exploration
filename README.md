@@ -10,3 +10,4 @@ Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) 
 ## Exemples et cas d'usage
 
 - [`GRC-carte_Visa`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa). Exemple de Gestion de la Relaiton Client (GRC). Exploraiton multidimensionnelle: ACP, AFCM, segmentation de clientèle: classificaiton non supervisée par CAH et réallocation dynamique; représentation, interprétation des classes. 
+- [`DiagCoro`](https://github.com/wikistat/Exploration/blob/master/Diag-coro/) Exploration en R. ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes de 270 patients ayant consulté pour douleur thoracique et présentant ou pas une insuffisance coronarienne.
