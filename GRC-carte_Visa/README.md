@@ -8,4 +8,4 @@
 
 Les données sont sont composés de 825 clients d'une banque décrits par 32 variables concernant leurs avoirs, et utilisations de leurs comptes. L'objectif est de constuire une segmentation ou profilage des types de comportement.
 
-Le [scénario](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf) équivalent de [wikistat](http://wikistat.fr/) utilise SAS. 
+Le [scénario](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf) équivalent de [wikistat](http://wikistat.fr/) utilise SAS. Le [**consulter**](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf) pour avoir un descriptif précis des variables et des objectifs.
