@@ -1,13 +1,63 @@
-###<a href="http://www.insa-toulouse.fr/" ><img src="http://www.math.univ-toulouse.fr/~besse/Wikistat/Images/Logo_INSAvilletoulouse-RVB.png" style="float:left; max-width: 80px; display: inline" alt="INSA"/> |  [*Mathématiques Appliquées*](http://www.math.insa-toulouse.fr/fr/index.html), [`Science des Données`](http://www.math.insa-toulouse.fr/fr/enseignement.html)
+##<a href="http://www.insa-toulouse.fr/" ><img src="http://www.math.univ-toulouse.fr/~besse/Wikistat/Images/Logo_INSAvilletoulouse-RVB.png" style="float:left; max-width: 80px; display: inline" alt="INSA"/> |  [*Mathématiques Appliquées*](http://www.math.insa-toulouse.fr/fr/index.html), [`Science des Données`](http://www.math.insa-toulouse.fr/fr/enseignement.html)
 
-# Tutoriels de Science des Données en [Python](https://www.python.org/) et [R](href="https://cran.r-project.org/)
-# [Exploration Statistique](\http://wikistat.fr)
+Schématiquement, la **Science des Données** est définie autour d'une *agrégation de compétences* en Informatique (langage comme [R](href="https://cran.r-project.org/) et [Python](https://www.python.org/) , gestion des données, calcul parallèle...), Statistique (exploration, estimation test, modélisaiton, prévision) Apprentissage Machine (prévision), Mathématiques (probabilités, optimisation, analyse fonctionnelle, graphes...). 
 
-L'objectif de ces tutoriels, présentés sous forme de calepins ([*jupyter notebooks*](http://jupyter.org/)), est d'introduire, à l'aide de scénarios codés en R ou Python, les méthodes et techniques de la statistique ou de la *Sciences des données*. Ces sénarios détaillent des exemples ou cas d'usage  d'analyses de données "réelles".  Ce dépôt est consacré à l'exploration statistique et aux méthodes d'apprentissage non supervisée (*clustering*). D'autres scénarios sont proposés sur [wikistat.fr](http://wikistat.fr/) ainsi que dans les dépôts de ce site. Les méthodes sont exposées dans les vignettes de [wikistat](http://wikistat.fr/).
+Son **apprentissage** est acquis par l'intermédiaire de scénarios d'analyse de données réelles, ou *tutoriel*, présentés sous forme de *calepins* ([*jupyter notebooks*](http://jupyter.org/)) en [R](href="https://cran.r-project.org/) ou [Python](https://www.python.org/).
 
+Cette **pratique** est **indispensable** mais masque les *aspects théoriques* (mathématiques, statistiques): une *formule* est remplacée par un commande ou fonction en Python ou R, une *démonstration* par l'exécution d'exemples dans un calepin.
+
+Pour offrir de la *profondeur*, plus de compréhension, à cette (auto)-formation, les calepins renvoient (liens hypertextes) systématiquement à des **vignettes "théoriques"**  du site [wikistat.fr](http://wikistat.fr/) exposant en détail (cours) les méthodes et algorithmes concernés.
+
+Il ne s'agit pas simplement de pouvoir exécuter une méthode, un algorithme, il est important d'en **comprendre les propriétés**, conditions d'utilisation et limites.
+
+
+# Saison 2 [*Exploration Statistique*](\http://wikistat.fr)
+
+## Objectifs
+
+Cette saison est consacrée à l'apprentisage des *méthodes exploratoires multidimensionnelles*: analyse en composantes principales, factorielle discriminante, des correspondances, postionnement multidimensionnel, factorisaiton non négative, classification non-supervisée (*clustering*) par *k-means*, CAH, DBSCAN, mélanges gaussiens.
+
+## Prérequis
+Avoir acquis les compétences afférentes ou revenir sur des épisodes précédents:
+
+- [Outils Statistiques de base](https://github.com/wikistat/StatElem)
+
+## Organisation
+
+Excécuter les calepins de la saison en se référant aux vignettes "théoriques" lorsque c'est nécessaire. 
+
+## Pour aller plus loin
+
+- [Apprentissage Machine / Statistique](https://github.com/wikistat/Apprentissage)
+- [Technologies des grosses data](https://github.com/wikistat/Ateliers-Big-Data) (Spark, XGBoost, Keras...)
+
+## Épisodes (en travaux)
+Chaque épisode associe apprentissage des méthodes et initiations aux langages (R, Pyhton). Une introduction à SAS est présente compte tenu de sa toujours forte uilisation dans de grandes entreprises.
+
+### Épisode 1 
+- [Initiation à R](https://github.com/wikistat/Intro-R)
+- [Analyse en Composantes Principales](http://wikistat.fr/pdf/st-m-explo-acp.pdf)
+- [Initiation à SAS](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-tutor1-sas-init.pdf)
+
+### Épisode 2 
+- [Initiation à Python](https://github.com/wikistat/Intro-Python) Tutoriels 1 et 2
+- [Analyse Factorielle Disciminante]()
+
+### Épisode 3 
+- [Initiation à Python](https://github.com/wikistat/Intro-Python) Tutoriel 3
+- [Analyse Factorielle simple](http://wikistat.fr/pdf/st-m-explo-afc.pdf) des Correspondances
+- [Analyse Factorielle multiple](http://wikistat.fr/pdf/st-m-explo-afcm.pdf) des Correspondances
+
+### Épisode 4
+- [Initiation à Python](https://github.com/wikistat/Intro-Python) Tutoriel 4
+- [Classification non supervisée](http://wikistat.fr/pdf/st-m-explo-classif.pdf) (*k-means*, CAH, DBSCAN)
+- [Positionnement Multidimensionnel](http://wikistat.fr/pdf/st-m-explo-mds.pdf) (*MDS*) 
+
+### Épisode 5
+- [Factorisation non négative de matrices](http://wikistat.fr/pdf/st-m-explo-nmf.pdf)
+
+## Cas d'usage
 Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) au format .ipynb à télécharger et ouvrir dans *Jupyter*.
 
-## Exemples et cas d'usage
-
-- [`GRC-carte_Visa`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa). Exemple de Gestion de la Relaiton Client (GRC). Exploraiton multidimensionnelle: ACP, AFCM, segmentation de clientèle: classificaiton non supervisée par CAH et réallocation dynamique; représentation, interprétation des classes. 
+- [`GRC-carte_Visa`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa). Exemple de Gestion de la Relation Client (GRC). Exploraiton multidimensionnelle: ACP, AFCM, segmentation de clientèle: classificaiton non supervisée par CAH et réallocation dynamique; représentation, interprétation des classes. 
 - [`DiagCoro`](https://github.com/wikistat/Exploration/blob/master/Diag-coro/) Exploration en R. ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes de 270 patients ayant consulté pour douleur thoracique et présentant ou pas une insuffisance coronarienne.
