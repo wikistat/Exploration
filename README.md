@@ -10,7 +10,7 @@ Son **apprentissage** est acquis par l'intermédiaire de scénarios d'analyse de
 
 Cette **pratique** est **indispensable** mais masque les *aspects théoriques* (mathématiques, statistiques): une *formule* est remplacée par un commande ou fonction en Python ou R, une *démonstration* par l'exécution d'exemples dans un calepin.
 
-Pour offrir de la *profondeur*, plus de compréhension, à cette (auto)-formation, les calepins renvoient (liens hypertextes) systématiquement à des **vignettes "théoriques"**  du site [wikistat.fr](http://wikistat.fr/) exposant en détail (cours) les méthodes et algorithmes concernés.
+Pour offrir de la *profondeur*, plus de compréhension, à cette (auto)-formation, les calepins renvoient (liens hypertextes) systématiquement à des **vignettes "théoriques"**  du site [wikistat.fr](http://wikistat.fr/) exposant (cours) les méthodes et algorithmes concernés.
 
 Il ne s'agit pas simplement de pouvoir exécuter une méthode, un algorithme, il est important d'en **comprendre les propriétés**, conditions d'utilisation et limites.
 
@@ -64,6 +64,9 @@ Chaque épisode associe apprentissage des méthodes et initiations aux langages 
 ## Cas d'usage
 Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) au format .ipynb à télécharger et ouvrir dans *Jupyter*.
 
-- [`GRC-carte_Visa`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa). Exemple de Gestion de la Relation Client (GRC). Exploraiton multidimensionnelle: ACP, AFCM, segmentation de clientèle: classificaiton non supervisée par CAH et réallocation dynamique; représentation, interprétation des classes. 
+- [`GRC-carte_Visa`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa). Exemple de Gestion de la Relation Client (GRC). Exploration multidimensionnelle: ACP, AFCM, segmentation de clientèle: classification non supervisée par CAH et réallocation dynamique; représentation, interprétation des classes. 
+- [`Patrim-Insee`](https://github.com/wikistat/Exploration/tree/master/Patrim-Insee). Analyse des données d'une enquête INSEE sur le patrimoine des français. Exploration multidimensionnelle: AFCM, segmentation: classification non supervisée par CAH; représentation, interprétation des classes.
 - [`DiagCoro`](https://github.com/wikistat/Exploration/blob/master/Diag-coro/) Exploration en R. ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes de 270 patients ayant consulté pour douleur thoracique et présentant ou pas une insuffisance coronarienne.
 - [`AdultCensus`](https://github.com/wikistat/Exploration/blob/master/Adult-Census/) Exploration en R. ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes de 32561 citoyens américains.
+- [`Encours-Boursiers`](https://github.com/wikistat/Exploration/blob/master/Encours-Bours)iers/) Exploration en R (ACP, CAH, *k* plus proches voisins) d'un ensemble de 252 encours boursiers observés à Paris de 2000 à 2009.
+- - [`Cachets-Hittites`](https://github.com/wikistat/Exploration/blob/master/Cachets-Hittites/) Exploration avec R d'un corpus de 118 cachets hittites déctrits par 12 variables plus la présence de hiéroglyphes. Peut-on prévoir la datation?

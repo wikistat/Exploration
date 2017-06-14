@@ -6,4 +6,4 @@
 ## Exploration de données de diagnostic coronarien
 - [`Explo-R-DiagCoro`](https://github.com/wikistat/Exploration/blob/master/Diag-coro/Explo-R-DiagCoro.ipynb) Exploration en R. ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes de 270 patients ayant consulté pour douleur thoracique et présentant ou pas une insuffisance coronarienne. Ils sont décrits par 13 variables à l'issue d'un examen clinique.
 
-L'objectif est de constuire une segmentation ou profilage des patients en fonction deleur examen clinique, étude préalable à la construction d'un score prédictif.
+L'objectif est de constuire une segmentation ou profilage des patients en fonction de leur examen clinique, étude préalable à la construction d'un score prédictif.

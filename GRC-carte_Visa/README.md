@@ -6,6 +6,6 @@
 ## Segmentation d'une clientèle bancaire
 - [`Explo-Python-Visa`](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) Exploration en python (pandas, Scikit-leanr). ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes.
 
-Les données sont sont composés de 825 clients d'une banque décrits par 32 variables concernant leurs avoirs, et utilisations de leurs comptes. L'objectif est de constuire une segmentation ou profilage des types de comportement.
+Les données sont composées de 825 clients d'une banque décrits par 32 variables concernant leurs avoirs, et utilisations de leurs comptes. L'objectif est de constuire une segmentation ou profilage des types de comportement.
 
 Le [scénario](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf) équivalent de [wikistat](http://wikistat.fr/) utilise SAS. Le [**consulter**](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf) pour avoir un descriptif précis des variables et des objectifs.
