@@ -4,6 +4,6 @@
 # [Exploration Statistique](\http://wikistat.fr)
 
 ## Exploration des données de l'enquête "Patrimoine" de l'INSEE
-- [`Cachets-Hittites`](https://github.com/wikistat/Exploration/blob/master/Cachets-Hittites/Explo-R-hittites.ipynb) Exploration avec R d'un corpus de 118 cachets hittites déctrits par 12 variables plus la présence de hiéroglyphes. AFCM, arbre de décision, CAH, factorisation non négative.
+- [`Cachets-Hittites`](https://github.com/wikistat/Exploration/blob/master/Cachets-Hittites/Explo-R-hittites.ipynb) Exploration avec R d'un corpus de 118 cachets hittites déctrits par 12 variables plus 160 codant présence / absence de hiéroglyphes. AFCM, arbre de décision, CAH.
 
 L'objectif est d'étudier la faisabilité de la prévision de la datation de ces cachets à partir de leur descriptif.
