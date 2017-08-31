@@ -69,4 +69,6 @@ Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) 
 - [`DiagCoro`](https://github.com/wikistat/Exploration/blob/master/Diag-coro/) Exploration en R. ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes de 270 patients ayant consulté pour douleur thoracique et présentant ou pas une insuffisance coronarienne.
 - [`AdultCensus`](https://github.com/wikistat/Exploration/blob/master/Adult-Census/) Exploration en R. ACP, AFCM, CAH, *k* plus proches voisins. Interprétration et représentation des classes de 32561 citoyens américains.
 - [`Encours-Boursiers`](https://github.com/wikistat/Exploration/blob/master/Encours-Bours)iers/) Exploration en R (ACP, CAH, *k* plus proches voisins) d'un ensemble de 252 encours boursiers observés à Paris de 2000 à 2009.
-- - [`Cachets-Hittites`](https://github.com/wikistat/Exploration/blob/master/Cachets-Hittites/) Exploration avec R d'un corpus de 118 cachets hittites déctrits par 12 variables plus la présence de hiéroglyphes. Peut-on prévoir la datation?
+- [`Cachets-Hittites`](https://github.com/wikistat/Exploration/blob/master/Cachets-Hittites/) Exploration avec R d'un corpus de 118 cachets hittites décrits par 12 variables plus la présence de hiéroglyphes. Peut-on prévoir la datation?
+- [`Pourriels`](https://github.com/wikistat/Exploration/blob/master/Spam/) exploration et caractérisation d'un corpus de courriels afin d'identifier les pourriels.
+
