@@ -1,0 +1,7 @@
+"ident" "csp" "sport" 
+un     csp1 R 
+deux   csp2 R 
+trois  csp2 S 
+quatre csp3 S 
+cinq   csp3 T 
+six    csp4 T 

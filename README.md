@@ -39,12 +39,12 @@ Les séances de travaux pratiques sont consacrées à l'apprentissage des langag
 
 Penser à utiliser au mieux le temps de chaque séance en
  
-- débutant la réalisation du projet par l'analyse des [données de courriels](https://github.com/wikistat/Exploration/blob/master/Spam/) qui constituent un *fil rouge* tout au long de cette saison 2,
+- intégrant les différentes étapes la réalisation du projet sur l'analyse des données de [courriels](https://github.com/wikistat/Exploration/blob/master/Spam/) qui constituent un *fil rouge* tout au long de cette saison 2,
 - consultant les autres cas d'usage (sujets d'examen) disponibles.
 
-***N.B.*** Le cas d'usage de gestion de la relation client: [`GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) constitue égalmeent un excellent *fil rouge* pour illustrer toues les méthodes (ACP, AFCM, classification). Il existe des tutoriels en [SAS](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf), [R](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) et [Pyhton](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb), réalisant des traitements équivalents.
+***N.B.*** Le cas d'usage de gestion de la relation client: [`GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) permet d'illustrer presque toutes les méthodes (ACP, AFCM, classification) sur des données réelles. Il existe des tutoriels en [SAS](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf), [R](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) et [Pyhton](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb), réalisant les traitements équivalents. S'inspérer de celui en python pour la réalisation du projet.
 
-**Evaluation**: Examen sur table analogue aux cas d'usage ci-dessous et rendu d'un projet.
+**Evaluation**: Examen sur table analogue aux cas d'usage ci-dessous et rendu du projet sous la forme d'un calepin.
 
 ## Pour aller plus loin
 
@@ -52,7 +52,7 @@ Penser à utiliser au mieux le temps de chaque séance en
 - [Technologies des grosses data](https://github.com/wikistat/Ateliers-Big-Data) (Spark, XGBoost, Keras...)
 
 ## Épisodes
-Chaque épisode associe apprentissage des méthodes et initiations aux langages (R, Pyhton). Une introduction à SAS est présente compte tenu de sa toujours forte uilisation dans de grandes entreprises.
+Les épisodes alternent apprentissage des méthodes et initiations aux langages (R, Pyhton). Une introduction à SAS est présente compte tenu de sa toujours forte uilisation dans de grandes entreprises.
 
 
 ### Épisode 1 Introduction
@@ -70,35 +70,37 @@ Chaque épisode associe apprentissage des méthodes et initiations aux langages 
 - [Analyse en Composantes Principales](http://wikistat.fr/pdf/st-m-explo-acp.pdf)
 - **TP Explo1** 
    - ACPs élémentaires en R: svd + températures
-   - Données de pourriel: ACP
+   - Données GRC de banques: *data muning*
 - **TP Log3** 
     - [SAS/Graph](http://wikistat.fr/pdf/st-tutor3-sas-graph.pdf) 
     - [Macros SAS](http://wikistat.fr/pdf/st-tutor4-sas-macros.pdf)
 - **TP Explo2 ACP** 
     - ACPs en SAS: données cubiques
-    - Données de courriels, visa ?
+    - Données GRC de banques: ACP
 
 
 ### Épisode 3 Analyse Factorielle Discriminante
 - [Analyse Factorielle Disciminante](http://wikistat.fr/pdf/st-m-explo-afd.pdf)
 - **TP Log 4**: [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepin 1
-- **TP Explo 3**: AFD données socioéconomiques en SAS et R
+- **TP Explo 3**
+   - AFD données socioéconomiques en SAS et R
 - **TP Log 5**: [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepin 2
 
 ### Épisode 4 Analyse des Correspondances simple et Multiple
 - [Analyse Factorielle simple](http://wikistat.fr/pdf/st-m-explo-afc.pdf) des Correspondances
 - [Analyse Factorielle multiple](http://wikistat.fr/pdf/st-m-explo-afcm.pdf) des Correspondances
-- **TP Explo 4**: AFC csp et élections
+- **TP Explo 4**: AFC pas à pas et CSP
 - **TP Explo 5**: 
-    - AFCM genéralisation (sas), chiens (sas et r), cancer sein (sas)
-    - Données de courriels, visa ?
+    - AFCM R général, chiens & cancer
+    - AFCM SAS possible (généralisation, chiens, sein)
+    - Données GRC de banques: AFCM
 
 ### Épisode 5 Classification non supervisée et Positionnement Multidimensionnel
 - [Classification non supervisée](http://wikistat.fr/pdf/st-m-explo-classif.pdf) (*k-means*, CAH, DBSCAN)
 - [Positionnement Multidimensionnel](http://wikistat.fr/pdf/st-m-explo-mds.pdf) (*MDS*) 
 - **TP Explo 6**: 
     - Représentation de classifications r ville ocde chiens
-    - Données de courriels, visa ?
+    - Données GRC de banques: AFCM
 - **TP Log  6**: [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepin 4
 
 ### Épisode 6 Factorisation de Matrice et Projet
@@ -106,8 +108,8 @@ Chaque épisode associe apprentissage des méthodes et initiations aux langages 
 - **TP Log 7**: [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepins 3 et 5
 - **TP Explo 7** NMF
      - recommandation jouet
-     - données de courriels
-- **TP Explo 8: Projet** à rendre avant **Jeudi 18/01/2018 18h**. Traduire en Python le calepin R d'[exploration des pourriels](https://github.com/wikistat/Exploration/blob/master/Spam/). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus.
+     - Projet: courriel
+- **TP Explo 8: Projet** à rendre avant **Jeudi 18/01/2018 18h**. Reproduire en Python le calepin R d'[exploration des pourriels](https://github.com/wikistat/Exploration/blob/master/Spam/). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus.
 
 
 ## Cas d'usage (sujets d'examen)
