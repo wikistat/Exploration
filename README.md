@@ -20,103 +20,99 @@ Il ne s'agit pas simplement de pouvoir exécuter une méthode, un algorithme, il
 
 ## Objectifs
 
-Cette saison est consacrée à l'apprentisage des *méthodes exploratoires multidimensionnelles*: analyse en composantes principales, factorielle discriminante, des correspondances, postionnement multidimensionnel, factorisaiton non négative, classification non-supervisée (*clustering*) par *k-means*, CAH, DBSCAN, mélanges gaussiens.
+Cette saison est consacrée à l'apprentissage des *méthodes exploratoires multidimensionnelles*: analyse en composantes principales, factorielle discriminante, des correspondances, postionnement multidimensionnel, factorisaiton non négative, classification non-supervisée (*clustering*) par *k-means*, CAH, DBSCAN, mélanges gaussiens.
 
 ## Prérequis
 Avoir acquis les compétences afférentes ou revenir sur des épisodes précédents:
 
 - [Outils Statistiques de base](https://github.com/wikistat/StatElem)
 
-## <FONT COLOR="Red"> Déroulement de l'UF *Exploration et logiciels Statistiques* </font>
+## <FONT COLOR="Red"> Déroulement de l'UF: *Logiciels et Méthodes d'Exploration Statistique* </font>
 
-Cette saison est découpée en une séquence de six épisodes constitués de cours et travaux dirigés ou pratiques (par binome) avec un ordinateur.
+Cette saison est découpée en une séquence de six épisodes constitués de cours et travaux dirigés ou pratiques avec un ordinateur.
 
-Les cours présentent les différentes méthodes développées dnas les vignettes de [`wikistat.fr`](http://wikistat.fr/index-wikistat.html)
+Les cours présentent les différentes méthodes développées dans les vignettes de [`wikistat.fr`](http://wikistat.fr/)
 
-Les séances de travaux dirigés mettent en application les différentes méthodes d'exploration et de classification supervisée sur des données de plus en plus réalistes.
+Les séances de travaux dirigés mettent en application les différentes méthodes d'exploration et de classification supervisée sur des données de plus en plus réalistes donc volumineuses et complexes.
 
-Les séances de travaux pratiques sont consacrées à l'apprentissage des langages: R et python ainsi qu'à une introduction au logiciel SAS. 
+Les séances de travaux pratiques sont consacrées à l'apprentissage des langages: R et Python. Pour de nombreuses raisons, le *logiciel SAS* a été laissée de côté mais de nombreux [tutoriels](http://wikistat.fr/pdf/st-tutor1-sas-init.pdf) en permettent l'auto-apprentissage. 
 
-Penser à **utiliser au mieux le temps de chaque séance** en
+**Utiliser au mieux le temps de chaque séance**:
  
-- intégrant les différentes étapes la réalisation du projet sur l'analyse des données de [courriels](https://github.com/wikistat/Exploration/blob/master/Spam/) qui constituent un *fil rouge* tout au long de cette saison 2,
+- Réaliser au fur et à mesure les différentes étapes du projet sur l'analyse des données d'un [recensement](https://github.com/wikistat/Exploration/tree/master/Adult-Census)  aux USA et qui constitue un *fil rouge* tout au long de cette saison 2,
 - consultant les autres cas d'usage (sujets d'examen) disponibles.
 
 ***N.B.*** Le cas d'usage de gestion de la relation client: [`GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) permet d'illustrer presque toutes les méthodes (ACP, AFCM, classification) sur des données réelles. Il existe des tutoriels en [SAS](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf), [R](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) et [Pyhton](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb), réalisant les traitements équivalents. **S'inspérer de celui en python** pour la réalisation du projet.
 
-**Evaluation**: Examen sur table analogue aux cas d'usage ci-dessous et rendu du projet sous la forme d'un calepin.
+**Evaluation**: contrôle sur table analogue aux cas d'usage ci-dessous et rendu du projet sous la forme d'un calepin introduite par une synthèse détaillée.
 
 ## Pour aller plus loin
 
-- [Apprentissage Machine / Statistique](https://github.com/wikistat/Apprentissage)
+- [Apprentissage automatique / Statistique](https://github.com/wikistat/Apprentissage)
 - [Technologies des grosses data](https://github.com/wikistat/Ateliers-Big-Data) (Spark, XGBoost, Keras...)
 
 ## Épisodes
-Les épisodes alternent apprentissage des méthodes et initiations aux langages (R, Pyhton). Une introduction à SAS est présente compte tenu de sa toujours forte uilisation dans de grandes entreprises.
+Les épisodes alternent apprentissage des méthodes et initiations aux langages (R, Pyhton). L'[introduction à SAS](http://wikistat.fr/pdf/st-tutor1-sas-init.pdf) est accessible en auto-apprentissage.
 
 
 ### Épisode 1 Introduction
-- [Introduction](http://wikistat.fr/pdf/st-m-Intro-ExploMultidim.pdf) à l'exploration multidimensionnelle
+- [Introduction](http://wikistat.fr/pdf/st-m-Intro-ExploMultidim.pdf) à l'exploration multidimensionnelle et aux logiciels, langages statistiques
 - [Description unidimensionnelle](http://wikistat.fr/pdf/st-l-des-uni.pdf)
 - [Description bidimensionnelle](http://wikistat.fr/pdf/st-l-des-bi.pdf)
-- **TP Log1** initiation à SAS
-   - [Prise en main de SAS](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-tutor1-sas-init.pdf)
-   - [SAS de base](http://wikistat.fr/pdf/st-tutor2-sas-gestion.pdf)
-- **TP Log2** Pratique de R
+- **TP Log1** 
    - Consulter le [document ](https://github.com/wikistat/Intro-R) (`README`) pour installer le noyau `IRkernel` afin de pouvoir utiliser R dans Jupyter.
-   - Exécuter les 4 calepins du dépôt d'[Initiation à R](https://github.com/wikistat/Intro-R)
+   - [Pratique de R](https://github.com/wikistat/Intro-R): 4 calepins
+- **TP Log2** 
+   - [Python introduction](https://github.com/wikistat/Intro-Python/blob/master/Cal1-introPython.ipynb) 
 
 ### Épisode 2 Analyse en Composantes Principales
-- [Analyse en Composantes Principales](http://wikistat.fr/pdf/st-m-explo-acp.pdf)
-- **TP Explo1** 
-   - Cal1: [de la SVD à l'ACP, exemples](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal1-R-SVDtoACP.ipynb)
+- [Analyse en Composantes Principales](http://wikistat.fr/pdf/st-m-explo-acp.pdf) 
+- **TD Explo1** 
+   - [ACP en R ](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal1-R-SVDtoACP.ipynb): SVD, jouet, températures
    - Données GRC de banque: [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
 - **TP Log3** 
-    - [SAS/Graph](http://wikistat.fr/pdf/st-tutor3-sas-graph.pdf) 
-    - [Macros SAS](http://wikistat.fr/pdf/st-tutor4-sas-macros.pdf)
-- **TP Explo2 ACP** 
-    - ACPs en SAS: [données cubiques](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo2-acp-temp-cube.pdf)
-    - Données GRC de banques: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
-
+   - [Python pandas](https://github.com/wikistat/Intro-Python/blob/master/Cal2-PythonPandas.ipynb): caractères, OCDE
+   - [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) suite.
+- **TP Explo2** 
+    - [ACP en Python ](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal1-Python-SVDtoACP.ipynb)
+    - Données GRC de banques: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) 
+- **TP Log4** 
+   - [Python graphes](https://github.com/wikistat/Intro-Python/blob/master/Cal3-PythonGraphes.ipynb)
+   - Données GRC de banques: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) suite.
 
 ### Épisode 3 Analyse Factorielle Discriminante
-- [Analyse Factorielle Disciminante](http://wikistat.fr/pdf/st-m-explo-afd.pdf)
-- **TP Log 4**
-   - [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepin 1
+- [Analyse Factorielle Disciminante](http://wikistat.fr/pdf/st-m-explo-afd.pdf)   
 - **TP Explo 3**
-   - Cal2 [de l'ACP à l'AFD, exemples](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal2-R-ACPtoAFD.ipynb)
-   - AFD en SAS: [données socioéconomiques](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo3-afd-depart.pdf)
+   - [AFD en R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal2-R-ACPtoAFD.ipynb): iris, départements
+   - [AFD en Python](https://github.com/wikistat/Exploration/blob/master/HumanActivityRecognition/Explo-Python-HAR-metier.ipynb): *human activity recognition*
 - **TP Log 5**
-   - [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepin 2
+   - [Python avancé](https://github.com/wikistat/Intro-Python/blob/master/Cal4-PythonProg.ipynb)
 
 ### Épisode 4 Analyse des Correspondances simple et Multiple
 - [Analyse Factorielle simple](http://wikistat.fr/pdf/st-m-explo-afc.pdf) des Correspondances
 - [Analyse Factorielle multiple](http://wikistat.fr/pdf/st-m-explo-afcm.pdf) des Correspondances
 - **TP Explo 4**
-    - Cal3 [de la SVD à l'AFC, exemple](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal3-R-SVDtoAFC.ipynb)
+    - [AFC en R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal3-R-SVDtoAFC.ipynb): SVD, vacances
 - **TP Explo 5**: 
-    - Cal4 [de l'AFC à l'AFCM, exemples](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal4-R-AFCtoAFCM.ipynb)
-    - AFCM avec SAS: [variables avec interaction](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo5-afcm.pdf)
+    - [AFCM en R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal4-R-AFCtoAFCM.ipynb): chiens, cancer
+    - [AFCM en python](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal4-Python-AFCM.ipynb) titanic
     - Données GRC de banques: [AFCM](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
 
 ### Épisode 5 Classification non supervisée et Positionnement Multidimensionnel
 - [Classification non supervisée](http://wikistat.fr/pdf/st-m-explo-classif.pdf) (*k-means*, CAH, DBSCAN)
 - [Positionnement Multidimensionnel](http://wikistat.fr/pdf/st-m-explo-mds.pdf) (*MDS*) 
-- **TP Explo 6**: 
-    - Cal5 [Classification non supervisée](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal5-R-Classif.ipynb) et représentations
+- **TP Explo 6**
+    - [Classification avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal5-R-Classif.ipynb): villes, OCDE, chiens
     - Données GRC de banques: [Classification](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
-- **TP Log  6**
-    - [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepin 4
+- **TP Explo 7** 
+    - [Classification avec Python](): Mars 
 
 ### Épisode 6 Factorisation de Matrice et Projet
 - [Factorisation non négative de matrice](http://wikistat.fr/pdf/st-m-explo-nmf.pdf)
-- **TP Log 7**
-     - [Introduction à Python](https://github.com/wikistat/Intro-Python) Calepins 3 et 5
-- **TP Explo 7** NMF
-     - Cal6 [NMF et recommandation](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal6-R-NMF.ipynb)
-     - Projet: courriel
-- **TP Explo 8**
-    - **Projet** à rendre avant **Jeudi 18/01/2018 18h**. Reproduire en Python le calepin R d'[exploration des pourriels](https://github.com/wikistat/Exploration/blob/master/Spam/). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus.
+- **TP Explo 8** NMF
+     - [NMF avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal6-R-NMF.ipynb) apéro
+- **TP Explo 9 & 10**
+    - **Projet** à rendre avant **Jeudi xx/01/2019 18h**. Reproduire en Python le calepin R d'[analyse des données d'enquête](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-AdultCensus.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus.
 
 
 ## Cas d'usage (sujets d'examen)
