@@ -35,7 +35,7 @@ Les cours présentent les différentes méthodes développées dans les vignette
 
 Les séances de travaux dirigés mettent en application les différentes méthodes d'exploration et de classification supervisée sur des données de plus en plus réalistes donc volumineuses et complexes.
 
-Les séances de travaux pratiques sont consacrées à l'apprentissage des langages: R et Python. Pour de nombreuses raisons, le *logiciel SAS* a été laissée de côté mais de nombreux [tutoriels](http://wikistat.fr/pdf/st-tutor1-sas-init.pdf) en permettent l'auto-apprentissage. 
+Les séances de travaux pratiques sont consacrées à l'apprentissage des langages: R et Python. Pour de nombreuses raisons, le *logiciel SAS* a été laissé de côté mais de nombreux [tutoriels](http://wikistat.fr/pdf/st-tutor1-sas-init.pdf) en permettent l'auto-apprentissage. 
 
 **Utiliser au mieux le temps de chaque séance**:
  
@@ -87,7 +87,7 @@ Les épisodes alternent apprentissage des méthodes et initiations aux langages 
    - [AFD en Python](https://github.com/wikistat/Exploration/blob/master/HumanActivityRecognition/Explo-Python-HAR-metier.ipynb): *human activity recognition*
 - **TP Log 5**
    - [Python avancé](https://github.com/wikistat/Intro-Python/blob/master/Cal4-PythonProg.ipynb)
-
+   
 ### Épisode 4 Analyse des Correspondances simple et Multiple
 - [Analyse Factorielle simple](http://wikistat.fr/pdf/st-m-explo-afc.pdf) des Correspondances
 - [Analyse Factorielle multiple](http://wikistat.fr/pdf/st-m-explo-afcm.pdf) des Correspondances
