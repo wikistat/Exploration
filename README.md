@@ -105,14 +105,14 @@ Les épisodes alternent apprentissage des méthodes et initiations aux langages 
     - [Classification avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal5-R-Classif.ipynb): villes, OCDE, chiens
     - Données GRC de banques: [Classification](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
 - **TP Explo 7** 
-    - [Classification avec Python](): Mars 
+    - [Classification avec Python](https://github.com/wikistat/Exploration/blob/master/Mars/): Mars 
 
 ### Épisode 6 Factorisation de Matrice et Projet
 - [Factorisation non négative de matrice](http://wikistat.fr/pdf/st-m-explo-nmf.pdf)
 - **TP Explo 8** NMF
      - [NMF avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal6-R-NMF.ipynb) apéro
 - **TP Explo 9 & 10**
-    - **Projet** à rendre avant **Jeudi xx/01/2019 18h**. Reproduire en Python le calepin R d'[analyse des données d'enquête](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-AdultCensus.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus.
+    - **Projet** à rendre avant **Jeudi xx/05/2019 18h**. Reproduire en Python le calepin R d'[analyse des données d'enquête](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-AdultCensus.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus.
 
 
 ## Cas d'usage (sujets d'examen)
@@ -125,4 +125,4 @@ Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) 
 - [`Encours-Boursiers`](https://github.com/wikistat/Exploration/blob/master/Encours-Boursiers/) Exploration en R (ACP, CAH, *k* plus proches voisins) d'un ensemble de 252 encours boursiers observés à Paris de 2000 à 2009.
 - [`Cachets-Hittites`](https://github.com/wikistat/Exploration/blob/master/Cachets-Hittites/) Exploration avec R d'un corpus de 118 cachets hittites décrits par 12 variables plus la présence de hiéroglyphes. Peut-on prévoir la datation?
 - [`Pourriels`](https://github.com/wikistat/Exploration/blob/master/Spam/) exploration et caractérisation d'un corpus de courriels afin d'identifier les pourriels.
-
+- [`Mars`]((https://github.com/wikistat/Exploration/blob/master/Mars/) Segmentation d'un image de mars par classifications non supervisées. Représentation de la carte géologique de la surface de Mars.
