@@ -2,6 +2,8 @@
 
 # Science des Données & Statistique
 
+Un *buzz word*: *big data*, *data science*, *machine learning* en chasse un autre et les battages médiatiques se succèdent jusqu'au dernier en date: **intelligence artificielle** (IA). Appellation ancienne remise au premier plan par les succès d'AlphaGo, des véhicules autonomes et aussi, surtout, de la rencontre de la croissance exponentielle des masses de données avec les algorihtmes d'apprentissage statistique, dont le *deep learning*, pour les exploiter, les valoriser. 
+
 ### [Lire plus...](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-lm-Intro-Stat_SD.pdf)
 
 Schématiquement, la **Science des Données** est définie autour d'une *agrégation de compétences* en Informatique (langage comme [R](href="https://cran.r-project.org/) et [Python](https://www.python.org/) , gestion des données, calcul parallèle...), Statistique (exploration, estimation test, modélisation, prévision) Apprentissage Machine (prévision), Mathématiques (probabilités, optimisation, analyse fonctionnelle, graphes...). 
@@ -20,7 +22,7 @@ Il ne s'agit pas simplement de pouvoir exécuter une méthode, un algorithme, il
 
 ## Objectifs
 
-Cette saison est consacrée à l'apprentissage des *méthodes exploratoires multidimensionnelles*: analyse en composantes principales, factorielle discriminante, des correspondances, postionnement multidimensionnel, factorisaiton non négative, classification non-supervisée (*clustering*) par *k-means*, CAH, DBSCAN, mélanges gaussiens.
+Cette saison est consacrée à l'apprentissage des *méthodes exploratoires multidimensionnelles* indispensables à la préparation des données (*data munging*): analyse en composantes principales, factorielle discriminante, des correspondances, postionnement multidimensionnel, factorisaiton non négative, classification non-supervisée (*clustering*) par *k-means*, CAH, DBSCAN, mélanges gaussiens. 
 
 ## Prérequis
 Avoir acquis les compétences afférentes ou revenir sur des épisodes précédents:
@@ -125,4 +127,4 @@ Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) 
 - [`Encours-Boursiers`](https://github.com/wikistat/Exploration/blob/master/Encours-Boursiers/) Exploration en R (ACP, CAH, *k* plus proches voisins) d'un ensemble de 252 encours boursiers observés à Paris de 2000 à 2009.
 - [`Cachets-Hittites`](https://github.com/wikistat/Exploration/blob/master/Cachets-Hittites/) Exploration avec R d'un corpus de 118 cachets hittites décrits par 12 variables plus la présence de hiéroglyphes. Peut-on prévoir la datation?
 - [`Pourriels`](https://github.com/wikistat/Exploration/blob/master/Spam/) exploration et caractérisation d'un corpus de courriels afin d'identifier les pourriels.
-- [`Mars`]((https://github.com/wikistat/Exploration/blob/master/Mars/) Segmentation d'un image de mars par classifications non supervisées. Représentation de la carte géologique de la surface de Mars.
+- [`Mars`](https://github.com/wikistat/Exploration/blob/master/Mars/) Segmentation d'un image de mars par classifications non supervisées. Représentation de la carte géologique de la surface de Mars.
