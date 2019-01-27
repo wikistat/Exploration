@@ -58,64 +58,71 @@ Les épisodes alternent apprentissage des méthodes et initiations aux langages 
 
 
 ### Épisode 1 Introduction
-- [Introduction](http://wikistat.fr/pdf/st-m-Intro-ExploMultidim.pdf) à l'exploration multidimensionnelle et aux logiciels, langages statistiques
+- [Introduction](https://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-lm-Intro-Stat_SD.pdf) De la Stat à l'IA, quels logiciels et langages
 - [Description unidimensionnelle](http://wikistat.fr/pdf/st-l-des-uni.pdf)
 - [Description bidimensionnelle](http://wikistat.fr/pdf/st-l-des-bi.pdf)
-- **TP Log1** 
+- **TP 1** 
    - Consulter le [document ](https://github.com/wikistat/Intro-R) (`README`) pour installer le noyau `IRkernel` afin de pouvoir utiliser R dans Jupyter.
    - [Pratique de R](https://github.com/wikistat/Intro-R): 4 calepins
-- **TP Log2** 
-   - [Python introduction](https://github.com/wikistat/Intro-Python/blob/master/Cal1-introPython.ipynb) 
+- **TP 2** 
+   - [Python Tuto1](https://github.com/wikistat/Intro-Python/blob/master/Cal1-introPython.ipynb)  Introduction
 
 ### Épisode 2 Analyse en Composantes Principales
+- [Introduction](http://wikistat.fr/pdf/st-m-Intro-ExploMultidim.pdf) à l'exploration multidimensionnelle et aux logiciels, langages statistiques
 - [Analyse en Composantes Principales](http://wikistat.fr/pdf/st-m-explo-acp.pdf) 
-- **TD Explo1** 
+- **TP 3** 
    - [ACP en R ](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal1-R-SVDtoACP.ipynb): SVD, jouet, températures
-   - Données GRC de banque: [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
-- **TP Log3** 
-   - [Python pandas](https://github.com/wikistat/Intro-Python/blob/master/Cal2-PythonPandas.ipynb): caractères, OCDE
-   - [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) suite.
-- **TP Explo2** 
-    - [ACP en Python ](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal1-Python-SVDtoACP.ipynb)
-    - Données GRC de banques: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) 
-- **TP Log4** 
-   - [Python graphes](https://github.com/wikistat/Intro-Python/blob/master/Cal3-PythonGraphes.ipynb)
-   - Données GRC de banques: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) suite.
+   - Données GRC de banque: [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) en R
+- **TP 4** 
+   - [Python Tuto2](https://github.com/wikistat/Intro-Python/blob/master/Cal2-PythonPandas.ipynb): data munging avec `pandas`
+   - GRC: [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) en python.
+- **TP 5** 
+    - [ACP en Python ](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal1-Python-SVDtoACP.ipynb) initiation
+    - GRC: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) en R
+- **TP 6** 
+   - [Python Tuto3](https://github.com/wikistat/Intro-Python/blob/master/Cal3-PythonGraphes.ipynb) graphes
+   - GRC: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) en python
 
 ### Épisode 3 Analyse Factorielle Discriminante
 - [Analyse Factorielle Disciminante](http://wikistat.fr/pdf/st-m-explo-afd.pdf)   
-- **TP Explo 3**
+- **TP 7**
    - [AFD en R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal2-R-ACPtoAFD.ipynb): iris, départements
    - [AFD en Python](https://github.com/wikistat/Exploration/blob/master/HumanActivityRecognition/Explo-Python-HAR-metier.ipynb): *human activity recognition*
-- **TP Log 5**
-   - [Python avancé](https://github.com/wikistat/Intro-Python/blob/master/Cal4-PythonProg.ipynb)
+- **TP 8**
+   - [Python Tuto 4](https://github.com/wikistat/Intro-Python/blob/master/Cal4-PythonProg.ipynb) programmation avancée
    
 ### Épisode 4 Analyse des Correspondances simple et Multiple
 - [Analyse Factorielle simple](http://wikistat.fr/pdf/st-m-explo-afc.pdf) des Correspondances
 - [Analyse Factorielle multiple](http://wikistat.fr/pdf/st-m-explo-afcm.pdf) des Correspondances
-- **TP Explo 4**
+- **TP 9**
     - [AFC en R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal3-R-SVDtoAFC.ipynb): SVD, vacances
-- **TP Explo 5**: 
     - [AFCM en R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal4-R-AFCtoAFCM.ipynb): chiens, cancer
+- **TP 10**: 
     - [AFCM en python](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal4-Python-AFCM.ipynb) titanic
-    - Données GRC de banques: [AFCM](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
+    - GRC: [AFCM](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) en R
+    - GRC: [AFCM](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) en python
 
 ### Épisode 5 Classification non supervisée et Positionnement Multidimensionnel
 - [Classification non supervisée](http://wikistat.fr/pdf/st-m-explo-classif.pdf) (*k-means*, CAH, DBSCAN)
 - [Positionnement Multidimensionnel](http://wikistat.fr/pdf/st-m-explo-mds.pdf) (*MDS*) 
-- **TP Explo 6**
+- **TP 11**
     - [Classification avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal5-R-Classif.ipynb): villes, OCDE, chiens
-    - Données GRC de banques: [Classification](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb)
-- **TP Explo 7** 
+    - GRC: [Classification](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) avec R
+- **TP 12** 
     - [Classification avec Python](https://github.com/wikistat/Exploration/blob/master/Mars/): Mars 
+    - GRC: [Classification](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) avec python
 
-### Épisode 6 Factorisation de Matrice et Projet
+### Épisode 6 Mélanges gaussiens et Factorisation de Matrice
+- [Mélanges gaussiens](http://wikistat.fr/pdf/st-m-datSc4-EMmixt.pdf)
 - [Factorisation non négative de matrice](http://wikistat.fr/pdf/st-m-explo-nmf.pdf)
-- **TP Explo 8** NMF
+- **TP 13**
+	 - [Mélanges gaussiens](): en R et python, Mars
      - [NMF avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal6-R-NMF.ipynb) apéro
-- **TP Explo 9 & 10**
-    - **Projet** à rendre avant **Jeudi xx/05/2019 18h**. Reproduire en Python le calepin R d'[analyse des données d'enquête](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-AdultCensus.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus.
 
+### Projet
+- **TP Explo 14 & 15**
+- Rendre avant **Mercredi 22/05/2019 18h**. 
+- Reproduire en Python le calepin R d'[analyse des données d'enquête](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-AdultCensus.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus; répondre aux différentes questions.
 
 ## Cas d'usage (sujets d'examen)
 Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) au format .ipynb à télécharger et ouvrir dans *Jupyter*. Ceux-ci suivent le déroulement (questions) d'un examen passé.
