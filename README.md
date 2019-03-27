@@ -109,14 +109,14 @@ Les épisodes alternent apprentissage des méthodes et initiations aux langages 
     - [Classification avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal5-R-Classif.ipynb): villes, OCDE, chiens
     - GRC: [Classification](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) avec R
 - **TP 12** 
-    - [Classification avec Python](https://github.com/wikistat/Exploration/blob/master/Mars/): Mars 
+    - [Classification avec Python](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal5-R-Classif.ipynb) 
     - GRC: [Classification](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) avec python
 
 ### Épisode 6 Mélanges gaussiens et Factorisation de Matrice
 - [Mélanges gaussiens](http://wikistat.fr/pdf/st-m-datSc4-EMmixt.pdf)
 - [Factorisation non négative de matrice](http://wikistat.fr/pdf/st-m-explo-nmf.pdf)
 - **TP 13**
-	 - [Mélanges gaussiens](): en R et python, Mars
+	 - [Mélanges gaussiens](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal5-R-Classif.ipynb) avec python, cartographie de [Mars](https://github.com/wikistat/Exploration/blob/master/Mars/)
      - [NMF avec R](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal6-R-NMF.ipynb) apéro
 
 ### Projet
