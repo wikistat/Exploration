@@ -41,7 +41,7 @@ Les séances de travaux pratiques sont consacrées à l'apprentissage des langag
 
 **Utiliser au mieux le temps de chaque séance**:
  
-- Réaliser au fur et à mesure les différentes étapes du projet sur l'analyse des données d'un [recensement](https://github.com/wikistat/Exploration/tree/master/Adult-Census)  aux USA et qui constitue un *fil rouge* tout au long de cette saison 2,
+- Réaliser au fur et à mesure les différentes étapes du projet sur l'analyse des données de [courriels](https://github.com/wikistat/Exploration/tree/master/Spam) et qui constitue un *fil rouge* tout au long de cette saison 2,
 - consultant les autres cas d'usage (sujets d'examen) disponibles.
 
 ***N.B.*** Le cas d'usage de gestion de la relation client: [`GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) permet d'illustrer presque toutes les méthodes (ACP, AFCM, classification) sur des données réelles. Il existe des tutoriels en [SAS](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf), [R](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) et [Pyhton](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb), réalisant les traitements équivalents. **S'inspérer de celui en python** pour la réalisation du projet.
@@ -54,7 +54,7 @@ Les séances de travaux pratiques sont consacrées à l'apprentissage des langag
 - [Technologies des grosses data](https://github.com/wikistat/Ateliers-Big-Data) (Spark, XGBoost, Keras...)
 
 ## Épisodes
-Les épisodes alternent apprentissage des méthodes et initiations aux langages (R, Pyhton). L'[introduction à SAS](http://wikistat.fr/pdf/st-tutor1-sas-init.pdf) est accessible en auto-apprentissage.
+Les épisodes alternent apprentissage des méthodes et initiations aux langages (R, Python). L'[introduction à SAS](http://wikistat.fr/pdf/st-tutor1-sas-init.pdf) est accessible en auto-apprentissage.
 
 
 ### Épisode 1 Introduction
@@ -75,7 +75,7 @@ Les épisodes alternent apprentissage des méthodes et initiations aux langages 
    - Données GRC de banque: [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) en R
 - **TP 4** 
    - [Python Tuto2](https://github.com/wikistat/Intro-Python/blob/master/Cal2-PythonPandas.ipynb): data munging avec `pandas`
-   - GRC: [*data muning*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) en python.
+   - GRC: [*data munging*](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb) en python.
 - **TP 5** 
     - [ACP en Python ](https://github.com/wikistat/Exploration/blob/master/TutosRudim/Cal1-Python-SVDtoACP.ipynb) initiation
     - GRC: [ACP](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) en R
@@ -121,8 +121,8 @@ Les épisodes alternent apprentissage des méthodes et initiations aux langages 
 
 ### Projet
 - **TP Explo 14 & 15**
-- Rendre avant **Mercredi 22/05/2019 18h**. 
-- Reproduire en Python le calepin R d'[analyse des données d'enquête](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-AdultCensus.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus; répondre aux différentes questions.
+- Rendre avant **Mercredi 27/05/2020 18h**. 
+- Reproduire en Python le calepin R d' [exploration de courriels](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-Spam.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus; répondre aux différentes questions.
 
 ## Cas d'usage (sujets d'examen)
 Chaque dossier concerne un jeu de données et contient un calepin (*notebooks*) au format .ipynb à télécharger et ouvrir dans *Jupyter*. Ceux-ci suivent le déroulement (questions) d'un examen passé.
