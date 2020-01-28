@@ -41,7 +41,7 @@ Les séances de travaux pratiques sont consacrées à l'apprentissage des langag
 
 **Utiliser au mieux le temps de chaque séance**:
  
-- Réaliser au fur et à mesure les différentes étapes du projet sur l'analyse des données de [courriels](https://github.com/wikistat/Exploration/tree/master/Spam) et qui constitue un *fil rouge* tout au long de cette saison 2,
+- Réaliser au fur et à mesure les différentes étapes du projet sur l'analyse des données de [courriels](https://github.com/wikistat/Exploration/tree/master/Spam), qui constitue un *fil rouge* tout au long de cette saison 2,
 - consultant les autres cas d'usage (sujets d'examen) disponibles.
 
 ***N.B.*** Le cas d'usage de gestion de la relation client: [`GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) permet d'illustrer presque toutes les méthodes (ACP, AFCM, classification) sur des données réelles. Il existe des tutoriels en [SAS](http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-scenar-explo-visa.pdf), [R](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-R-Visa.ipynb) et [Pyhton](https://github.com/wikistat/Exploration/blob/master/GRC-carte_Visa/Explo-Python-Visa.ipynb), réalisant les traitements équivalents. **S'inspérer de celui en python** pour la réalisation du projet.
@@ -121,7 +121,7 @@ Les épisodes alternent apprentissage des méthodes et initiations aux langages 
 
 ### Projet
 - **TP Explo 14 & 15**
-- Rendre avant **Mercredi 27/05/2020 18h**. 
+- Rendre avant le **27/05/2019 18h**. 
 - Reproduire en Python le calepin R d' [exploration de courriels](https://github.com/wikistat/Exploration/blob/master/Adult-Census/Explo-R-Spam.ipynb). S'inspirer du [cas d'usage `GRC Visa Premier`](https://github.com/wikistat/Exploration/tree/master/GRC-carte_Visa) dont un calepin est réalisé en python. Rendre le calepin en Python avec une synthèse subtantielle de la démarche et des principaux résultats obtenus; répondre aux différentes questions.
 
 ## Cas d'usage (sujets d'examen)
