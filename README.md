@@ -1,5 +1,5 @@
 ___
-**This repository is no longer maintained** and has moved to the address [plmlab.math.cnrs.fr/wikistat/Exploration](https://plmlab.math.cnrs.fr/wikistat/Exploration).
+ ### _**This repository is no longer maintained**_ and has moved to [plmlab.math.cnrs.fr/wikistat/Exploration](https://plmlab.math.cnrs.fr/wikistat/Exploration).
 ___
 <br>
 
